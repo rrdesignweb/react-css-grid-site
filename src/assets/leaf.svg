@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="176px" viewBox="0 0 221 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="49.9076116%" cy="49.8933836%" fx="49.9076116%" fy="49.8933836%" r="111.611602%" gradientTransform="translate(0.499076,0.498934),scale(0.792073,1.000000),rotate(0.349500),translate(-0.499076,-0.498934)" id="radialGradient-1">
+            <stop stop-color="#86C440" offset="0%"></stop>
+            <stop stop-color="#518A3C" offset="62.78%"></stop>
+            <stop stop-color="#377338" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="logo">
+                <path d="M24.9,171.8 C22.3,79.3 106.7,74.9 167.2,46.3 C101.5,56.1 27.8,79.8 9.9,146.4 C-13,115.9 9,73 25.6,58.1 C66.6,21.1 147.2,34.4 195.2,13.6 C204.5,9.6 212.3,-1.5 220.6,1.1 C196.5,95.5 141,195.9 24.9,171.8 Z" id="Path" fill="#70BF44"></path>
+                <g id="Group" transform="translate(0.000000, 1.000000)">
+                    <path d="M24.8510947,171.090099 C22.2510947,78.590099 106.651095,74.190099 167.151095,45.590099 C101.451095,55.390099 27.7510947,79.090099 9.85109472,145.690099 C-13.0489053,115.190099 8.95109472,72.290099 25.5510947,57.390099 C66.5510947,20.390099 147.151095,33.690099 195.151095,12.890099 C204.451095,8.89009897 212.251095,-2.20990103 220.551095,0.390098974 C196.551095,94.790099 140.951095,195.090099 24.8510947,171.090099 Z" id="Path" fill="url(#radialGradient-1)"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" x="67.8" y="108.7" width="12" height="13.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="84.2" y="108.7" width="12" height="13.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="84.2" y="125.7" width="12" height="13.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="67.8" y="125.7" width="12" height="13.1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

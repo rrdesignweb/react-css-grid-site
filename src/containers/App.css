@@ -1,0 +1,121 @@
+:root {
+    --main-green-color: #62af34;
+    --dark-green-color: #3f7a39;
+    --content-text: #444444;
+    --h3-text: #333333;
+    --phone-number: #c85c4b;
+    --footer-color:#bbb;
+    --light-grey:#f1f1f1;
+    --white:#ffffff;
+}
+body{
+  font-family: 'Roboto', Arial, sans-serif;
+  color: var(--content-text);
+  font-weight: 300;
+}
+.header{
+  display:grid;
+  border-bottom:1px solid var(--light-grey);
+  grid-template-columns: 0.1fr 1fr;
+  background-color: var(--white);
+}
+.App-logo {
+  padding: 15px 0px 20px 60px;
+}
+.App-logo img{
+  width:200px;
+}
+nav {
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  padding: 30px 60px 20px 30px;
+}
+nav a{
+  font-size: 16px;
+  color:var(--dark-green-color);
+  font-weight: 300;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav div:last-child a{
+  padding-left:15px;
+  padding-right:15px;
+  font-size:18px;
+  color:var(--phone-number);
+}
+.h1 {
+  color: var(--dark-green-color);
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 0px!important;
+  letter-spacing: -1px;
+  text-align:center;
+  font-style: italic;
+  margin-top:50px;
+}
+.leaf{
+  width:50px;
+}
+.h3{
+  font-size: 20px;
+  color: var(--h3-text);
+  margin: 0;
+  font-weight: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 4fr 0.2fr;
+  width:100vw;
+  height:100vh;
+  box-sizing: border-box;
+}
+.p-center{
+  text-align:center;
+  color:white;
+}
+main {
+  grid-column: span 12;
+  padding:0px 60px 30px 60px;
+  box-sizing: border-box;
+}
+footer {
+  grid-column: span 12;
+  padding:0px 60px 30px 60px;
+  box-sizing: border-box;
+  color:var(--footer-color);
+}
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.fade-leave {
+  opacity: 1;
+}
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-out;
+}
+
+/******* Tablet / Phone *******/
+@media only screen and (max-width: 888px) {
+  .Nav-Desktop  {
+    display:none;
+  }
+  .App-logo {
+    justify-content: center;
+    padding-left:0px;
+  }
+  .header{
+    display:flex;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .h1{
+    font-size: 34px!important;
+  }
+}
